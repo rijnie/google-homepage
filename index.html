@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li style = "float: left;">
+                    <a href = "#">About</a>
+                </li>
+                <li style = "float: left;">
+                    <a href = "#">Store</a>
+                </li>
+                <li style = "float: right;" id = "sign-in">
+                    <a href = "#">Sign in</a>
+                </li>
+                <li style = "float: right;">
+                    <a href = "#">Images</a>
+                </li>
+                <li style = "float: right;">
+                    <a href = "#">Gmail</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class = "center-element">
+            <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class = "horizontal-centered" id = "logo">
+            <form>
+                <input type = "search" class = "horizontal-centered" id ="search-bar">  
+                <div class = "horizontal-centered" id = "search-buttons-container">
+                    <input type = "button" class = "search-buttons" style = "float: left" value = "Google Search">
+                    <input type = "button" class = "search-buttons" style = "float: right" value = "Let's Go!">
+                </div>       
+            </form>
+
+        </div>
+
+        <footer>
+            <div id = "top-footer">
+                <p style = "display: inline">Leipzig</p>
+            </div>
+
+            <div id = "bottom-footer">
+                <ul>
+                    <li style = "float: left">
+                        <a href = "#">Avertising</a>
+                    </li>
+                    <li style = "float: left">
+                        <a href = "#">Business</a>
+                    </li>
+                    <li style = "float: left">
+                        <a href = "#">How Search works</a>
+                    </li>
+                    <li style = "float: right">
+                        <a href = "#">Privacy</a>
+                    </li>
+                    <li style = "float: right">
+                        <a href = "#">Terms</a>
+                    </li>
+                    <li style = "float: right">
+                        <a href = "#">Settings</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+
+</html>
+
+<style>
+
+
+    body {
+        line-height: 1;
+    }
+
+    ul {
+        list-style: none;
+    }
+    .center-element{
+        position: relative;
+        margin-top: 15vh;
+    }
+    .horizontal-centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logo {
+        width: 20%;
+    }
+
+    #search-bar{
+        border-radius: 25px;
+        border: 2px solid rgb(0, 0, 0);
+        width: 35%;
+        height: 50px;
+        margin-top: 15px;
+        outline: none;
+        font-size: 30px;
+        padding-left: 30px;
+    }
+
+    #search-buttons-container{
+        padding-top: 50px;
+        height: 300px;
+        width: 350px;
+    }
+
+    nav {
+        list-style-type: none;
+        padding-top: 20px;
+        padding-bottom: 20px; 
+        overflow: hidden;      
+    }
+
+    nav li{
+        margin-left: 15px;
+        margin-right: 15px;
+        line-height: 30px;
+
+    }
+    
+    footer{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        height: 100px;
+        width: 100%;
+    }
+
+    #top-footer{
+        top: 0px;
+        left: 0px;
+        padding: 15px 30px 15px 30px;
+    }
+
+    #bottom-footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    footer li{
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+</style>
